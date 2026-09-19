@@ -1,0 +1,7 @@
+MKintai:
+  App:
+    frontend:
+      devServer: ''                # rỗng = nạp bản build trong Resources/Public/app
+      entry: 'src/main.ts'         # entry của Vite (chỉ dùng khi có devServer)
+      builtJs: 'app/app.js'
+      builtCss: 'app/app.css'

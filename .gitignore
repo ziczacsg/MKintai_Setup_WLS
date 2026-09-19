@@ -1,0 +1,20 @@
+# Backend
+/backend/Data/
+/backend/Web/_Resources/
+/backend/Packages/*
+!/backend/Packages/Application/
+/backend/Packages/Application/*
+!/backend/Packages/Application/Acme.App/
+# Bản build của Vue (sinh ra từ Windows, không commit)
+/backend/Packages/Application/Acme.App/Resources/Public/app/
+
+# Frontend
+/frontend/node_modules/
+
+# Go / Docker
+/services/**/bin/
+
+# Editor / OS
+.idea/
+.DS_Store
+Thumbs.db

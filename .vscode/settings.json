@@ -1,0 +1,7 @@
+{
+  "files.eol": "\n",
+  "editor.formatOnSave": true,
+  "php.validate.executablePath": "/usr/bin/php",
+  "intelephense.files.exclude": ["**/Data/**", "**/node_modules/**"],
+  "search.exclude": { "**/Data": true, "**/node_modules": true, "**/Resources/Public/app": true }
+}
