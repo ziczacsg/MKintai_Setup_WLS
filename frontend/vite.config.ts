@@ -23,7 +23,7 @@ export default defineConfig({
   },
 
   build: {
-    outDir: '../backend/Packages/Application/MKintai.App/Resources/Public/app',
+    outDir: '../backend/DistributionPackages/MKintai.App/Resources/Public/app',
     emptyOutDir: true,
     cssCodeSplit: false,
     rollupOptions: {

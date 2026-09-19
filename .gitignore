@@ -1,12 +1,12 @@
 # Backend
 /backend/Data/
 /backend/Web/_Resources/
-/backend/Packages/*
-!/backend/Packages/Application/
-/backend/Packages/Application/*
-!/backend/Packages/Application/Acme.App/
-# Bản build của Vue (sinh ra từ Windows, không commit)
-/backend/Packages/Application/Acme.App/Resources/Public/app/
+# backend/Packages/ hoàn toàn do Composer quản lý (Framework/Libraries/Application vendor,
+# vd Neos.Welcome, Neos.Behat) — không commit, tái tạo bằng `composer install`.
+/backend/Packages/
+# Package ứng dụng thật nằm ở backend/DistributionPackages/MKintai.App/ (composer path-repository,
+# xem backend/composer.json) — được commit, CHỈ bỏ qua bản build Vue sinh ra trong đó:
+/backend/DistributionPackages/MKintai.App/Resources/Public/app/
 
 # Frontend
 /frontend/node_modules/
