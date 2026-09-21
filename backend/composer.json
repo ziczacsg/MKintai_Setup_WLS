@@ -21,7 +21,8 @@
     "require": {
         "neos/flow": "~9.1.0",
         "neos/welcome": "~9.1.0",
-        "mkintai/app": "@dev"
+        "mkintai/app": "@dev",
+        "mkintai/doctrinelab": "@dev"
     },
     "require-dev": {
         "neos/kickstarter": "~9.1.0",

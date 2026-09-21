@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a58d13fd0d79cd0b6ac77461c89651de",
+    "content-hash": "4bda107ccbfe54f1223bbec57cdc1507",
     "packages": [
         {
             "name": "brick/math",
@@ -2297,6 +2297,33 @@
                     "MKintai\\App\\": "Classes/"
                 }
             },
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
+            "name": "mkintai/doctrinelab",
+            "version": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "./DistributionPackages/MKintai.DoctrineLab",
+                "reference": "178912bf57bd8e9dac5255e5ef7c804983a2db9f"
+            },
+            "require": {
+                "neos/flow": "*"
+            },
+            "type": "neos-package",
+            "extra": {
+                "neos": {
+                    "package-key": "MKintai.DoctrineLab"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "MKintai\\DoctrineLab\\": "Classes/"
+                }
+            },
+            "description": "Doctrine ORM relation mapping exercises for Flow Framework mentoring module",
             "transport-options": {
                 "relative": true
             }
@@ -8445,7 +8472,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "mkintai/app": 20
+        "mkintai/app": 20,
+        "mkintai/doctrinelab": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

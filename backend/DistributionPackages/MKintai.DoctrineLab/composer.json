@@ -1,0 +1,18 @@
+{
+    "description": "Doctrine ORM relation mapping exercises for Flow Framework mentoring module",
+    "type": "neos-package",
+    "name": "mkintai/doctrinelab",
+    "require": {
+        "neos/flow": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "MKintai\\DoctrineLab\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "MKintai.DoctrineLab"
+        }
+    }
+}
